@@ -35,7 +35,7 @@ body <- dashboardBody(
       fluidRow(
         column(
           width = 12,
-          h1("Inputs")
+          inputs_module_ui("inputs")
         )
       )
     ),
